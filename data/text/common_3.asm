@@ -738,13 +738,13 @@ _MainMenuTimeUnknownText::
 	done
 
 _DeleteSavedLoginPasswordText::
-	text "Delete the saved"
-	line "LOG-IN PASSWORD?"
+	text "Effacer le MOT DE"
+	line "PASSE sauvegardé?"
 	done
 
 _DeletedTheLoginPasswordText::
-	text "Deleted the LOG-IN"
-	line "PASSWORD."
+	text "MOT DE PASSE"
+	line "effacé."
 	done
 
 _MobilePickThreeMonForBattleText::
