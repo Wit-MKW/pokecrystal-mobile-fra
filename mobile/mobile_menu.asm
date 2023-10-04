@@ -776,12 +776,12 @@ String_4a5f2:
 Strings_4a5f6:
 	db "Vu sur votre CARTE@";"めいし　や　ニュース　<NI>のせる@"
 	db "et les INFOS.@";"あなた<NO>あいさつです@"
-	db "Vu au départ d'une@";"モバイル　たいせん<GA>はじまるとき@"
-	db "bataille mobile.@";"あいて<NI>みえる　あいさつです@"
+	db "Vu au départ d'un@";"モバイル　たいせん<GA>はじまるとき@"
+	db "combat mobile.@";"あいて<NI>みえる　あいさつです@"
     db "Vu si vous gagnez@";"モバイル　たいせんで　かったとき@"
-    db "une bataille.@";"あいて<NI>みえる　あいさつです@"
+    db "un combat.@";"あいて<NI>みえる　あいさつです@"
     db "Vu si vous perdez@";"モバイル　たいせんで　まけたとき@"
-    db "une bataille.@";"あいて<NI>みえる　あいさつです@"
+    db "un combat.@";"あいて<NI>みえる　あいさつです@"
 	db "Retour à l'écran@";"まえ<NO>がめん　<NI>もどります@"
 	db "précédent.@"
 
