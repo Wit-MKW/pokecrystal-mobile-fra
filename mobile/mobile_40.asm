@@ -921,8 +921,8 @@ MenuHeader_1005fc:
 MenuData_100604:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2
-	db "CALL@"		; "かける@"
-	db "WAIT@"		; "まつ@"
+	db "APPEL@"		; "かける@"
+	db "ATTEND@"		; "まつ@"
 
 Mobile_CommunicationStandby:
 	hlcoord 3, 10
@@ -4536,56 +4536,56 @@ String_101f13:
 	db "@"
 
 String_101f14:
-	db   "Communicate"	; "モバイルアダプタを　つかって"
-	next "with a friend!@"	; "おともだちと　つうしんします"
+	db   "Jouer avec"	; "モバイルアダプタを　つかって"
+	next "un(e) ami(e)!@"	; "おともだちと　つうしんします"
 
 String_101f32:
-	db   "The caller will"	; "でんわを　かけるひとには"
-	next "be charged.@"		; "つうわりょうきんが　かかります@"
+	db   "L'appelant(e)"	; "でんわを　かけるひとには"
+	next "sera chargé(e).@"		; "つうわりょうきんが　かかります@"
 
 String_101f4f:
-	db   "Is the MOBILE"	; "モバイルアダプタの　じゅんびは"
-	next "ADAPTER ready?@"	; "できて　いますか？@"
+	db   "Est-l'ADAPTATEUR"	; "モバイルアダプタの　じゅんびは"
+	next "MOBILE prêt?@"	; "できて　いますか？@"
 
 String_101f69:
-	db   "Want to call"		; "あなたが　おともだちに"
-	next "your friend?@"	; "でんわを　かけますか？@"
+	db   "Voulez-vous"		; "あなたが　おともだちに"
+	next "appeler?@"	; "でんわを　かけますか？@"
 
 String_101f81:
-	db   "Use the"			; "めいしフォルダーを"
-	next "CARD FOLDER?@"	; "つかいますか？@"
+	db   "Utiliser le"			; "めいしフォルダーを"
+	next "DOSSIER CARTE?@"	; "つかいますか？@"
 
 String_101f93:
-	db   "Please enter a"	; "でんわばんごうを　にゅうりょく"
-	next "phone number.@"	; "してください@"
+	db   "Entrez un"	; "でんわばんごうを　にゅうりょく"
+	next "numéro s.v.p.@"	; "してください@"
 
 String_101faa:
-	db   "Waiting for"		; "それでは　おともだちからの"
-	next "a call…@"			; "でんわを　おまちします⋯@"
+	db   "En attente"		; "それでは　おともだちからの"
+	next "d'un appel…@"			; "でんわを　おまちします⋯@"
 
 String_101fc5:
-	db 	"Call this no.?@"	; "に　でんわを　かけます@"
+	db 	"Appeler ce no.?@"	; "に　でんわを　かけます@"
 
 String_101fd2:
-	db 	"Calling…@"			; "に　でんわを　かけています@"
+	db 	"Appelation…@"			; "に　でんわを　かけています@"
 
 String_101fe1:
-	db   "Call connected!@"	; "でんわが　つながりました!@"
+	db   "Appel connecté!@"	; "でんわが　つながりました!@"
 
 String_101fef:
-	db   "Ending call…@"	; "つうわを"
+	db   "Raccroche…@"	; "つうわを"
 	;next 					; "しゅうりょう　します⋯@"
 
 String_102000:
 	db   "Communication"	; "つうしん　しゅうりょう@"
-	next "ended.@"
+	next "terminée.@"
 
 String_10200c:
-	db   "CALL TIME@"		; "つうわ　じかん@"
+	db   "DUREE APPEL@"		; "つうわ　じかん@"
 
 String_102014:
-	db   "Please choose"	; "それでは　つうしんの"
-	next "the settings.@"	; "せっていを　してください@"
+	db   "Choisir les"	; "それでは　つうしんの"
+	next "paramètres.@"	; "せっていを　してください@"
 
 Function10202c:
 	farcall Function115d99
@@ -7288,18 +7288,18 @@ Unknown_103522:
 	dw String_103545
 
 String_103545: db "@"
-String_103546: db " BATTLE SCENE@"			; "せんとう　アニメ@"
-String_10354f: db " PHONE NUMBER@"			; "でんわばんごう@"
-String_103557: db " CARD TRADE@"			; "めいしこうかん@"
-String_10355f: db "Caller decides.@"		; "でんわを　かけるひとが　きめられる@"
-String_103571: db "Input method.@"			; "でんわばんごうの　にゅうりょくのしかた@" ; Entering a phone number
-String_103585: db "Replace old CARD.@"		; "あたらしいめいしが　あれば　こうかん@" ; Replace if there is a new card
-String_103598: db "<LF>:OFF@"				; "とばして　みる@"; Skip to see
-String_1035a0: db "<LF>:ON @"				; "じっくり　みる@" ; Watch carefully
-String_1035a8: db "<LF>:CARD@"				; "めいしからえらぶ@" ; Choose from cards
-String_1035b1: db "<LF>:DIAL@"				; "すうじで　いれる@"
-String_1035ba: db "<LF>:ON @"				; "する@"
-String_1035bd: db "<LF>:OFF@"				; "しない@"
+String_103546: db " ANIMATION COMBAT@"			; "せんとう　アニメ@"
+String_10354f: db " NUMERO TELEPHONE@"			; "でんわばんごう@"
+String_103557: db " ECHANGE CARTE@"			; "めいしこうかん@"
+String_10355f: db "L'appelant choisi.@"		; "でんわを　かけるひとが　きめられる@"
+String_103571: db "Méthode à saisir.@"			; "でんわばんごうの　にゅうりょくのしかた@" ; Entering a phone number
+String_103585: db "Remplace la CARTE.@"		; "あたらしいめいしが　あれば　こうかん@" ; Replace if there is a new card
+String_103598: db "<LF>:NON@"				; "とばして　みる@"; Skip to see
+String_1035a0: db "<LF>:OUI@"				; "じっくり　みる@" ; Watch carefully
+String_1035a8: db "<LF>:CART@"				; "めいしからえらぶ@" ; Choose from cards
+String_1035b1: db "<LF>:COMP@"				; "すうじで　いれる@"
+String_1035ba: db "<LF>:OUI@"				; "する@"
+String_1035bd: db "<LF>:NON@"				; "しない@"
 String_1035c1: db " OK@"					; "けってい@"
 
 Function1035c6:
@@ -7534,9 +7534,9 @@ MenuHeader_103747:
 MenuData_10374f:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3
-	db "YES@"		; "はい@"
-	db "CANCEL@"	; "やめる@"
-	db "INFO@"		; "せつめい@"
+	db "OUI@"		; "はい@"
+	db "NON@"	; "やめる@"
+	db "INFOS@"		; "せつめい@"
 
 MobileBattleMustPickThreeMonText:
 	text_far _MobileBattleMustPickThreeMonText

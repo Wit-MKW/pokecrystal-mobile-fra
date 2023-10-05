@@ -60,7 +60,7 @@ MobileBattleRoom_EstablishingCommsText:
 
 MobileBattleRoom_HealText:
 	text "Vos #MON seront"
-	line "soignés avant"
+	line "tous soignés avant"
 	cont "le combat."
 	done
 

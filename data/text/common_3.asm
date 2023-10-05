@@ -170,8 +170,9 @@ _MobileBattleNoTimeLeftForLinkingText::
 	done
 
 _PickThreeMonForMobileBattleText::
-	text "Choisir 3 #MON"
-	line "pour le combat."
+	text "Choisir trois"
+	line "#MON pour le"
+	cont "combat."
 	done
 
 _MobileBattleRemainingTimeText::
@@ -748,8 +749,9 @@ _DeletedTheLoginPasswordText::
 	done
 
 _MobilePickThreeMonForBattleText::
-	text "Pick three #MON"
-	line "for battle."
+	text "Choisir trois"
+	line "#MON pour le"
+	cont "combat."
 	prompt
 
 _MobileUseTheseThreeMonText::
@@ -757,17 +759,17 @@ _MobileUseTheseThreeMonText::
 	text ","
 	line "@"
 	text_ram wMobileParticipant2Nickname
-	text " and"
+	text " et"
 	cont "@"
 	text_ram wMobileParticipant3Nickname
 	text "."
 
-	para "Use these three?"
+	para "Utliser ces trois?"
 	done
 
 _MobileOnlyThreeMonMayEnterText::
-	text "Only three #MON"
-	line "may enter."
+	text "Ne choisir que"
+	line "trois #MON."
 	prompt
 
 _MobileCardFolderIntro1Text::
