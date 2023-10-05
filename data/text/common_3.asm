@@ -176,7 +176,7 @@ _PickThreeMonForMobileBattleText::
 	done
 
 _MobileBattleRemainingTimeText::
-	text "Il reste@"
+	text "Il reste @"
 	text_decimal wStringBuffer2, 1, 2
 	text " min."
 	line "aujourd'hui."

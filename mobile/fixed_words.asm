@@ -951,9 +951,9 @@ EZChatDrawBKG_ChatWords:
 	ret
 
 EZChatString_ChatExplanation: ; Explanation string
-	db   "Combinez quatre";"６つのことば¯くみあわせます"
+	db   "Combiner quatre";"６つのことば¯くみあわせます"
 	next "mots ou phrases.";"かえたいところ¯えらぶと　でてくる"
-	next "Choisissez les es-";"ことばのグループから　いれかえたい"
+	next "Choisir les es-";"ことばのグループから　いれかえたい"
 	next "paces et les mots.";"たんご¯えらんでください"
 	db   "@"
 

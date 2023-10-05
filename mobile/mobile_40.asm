@@ -913,7 +913,7 @@ Function1005e1:
 
 MenuHeader_1005fc:
 	db MENU_BACKUP_TILES ; flags
-	db 6, 13;14
+	db 6, 10;14
 	db 10, 19
 	dw MenuData_100604
 	db 1 ; default option
@@ -922,7 +922,7 @@ MenuData_100604:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2
 	db "APPEL@"		; "かける@"
-	db "ATTEND@"		; "まつ@"
+	db "ATTEND.@"		; "まつ@"
 
 Mobile_CommunicationStandby:
 	hlcoord 3, 10
@@ -7527,7 +7527,7 @@ Function103700:
 
 MenuHeader_103747:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 11, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1;13, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1;13, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw MenuData_10374f
 	db 1 ; default option
 
