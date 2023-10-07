@@ -334,7 +334,7 @@ Function100232:
 
 String10024d:
 	db   "Communication"	; "つうしんを　キャンセル　しました@"
-	next "canceled.@"
+	next "annulée.@"
 
 String10025e:
 	db   "The chosen rooms"	; "おともだちと　えらんだ　へやが"
@@ -4544,8 +4544,8 @@ String_101f32:
 	next "sera chargé(e).@"		; "つうわりょうきんが　かかります@"
 
 String_101f4f:
-	db   "Est-l'ADAPTATEUR"	; "モバイルアダプタの　じゅんびは"
-	next "MOBILE prêt?@"	; "できて　いますか？@"
+	db   "L'ADAPT. MOBILE"	; "モバイルアダプタの　じゅんびは"
+	next "est-il prêt?@"	; "できて　いますか？@"
 
 String_101f69:
 	db   "Voulez-vous"		; "あなたが　おともだちに"
