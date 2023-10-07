@@ -6040,13 +6040,13 @@ Text_CancelBattleRoomChallenge:
 	done
 
 Text_ExitGymLeaderHonorRoll:
-	text "Exit ROOM LEADER" ; text "Exit GYM LEADER" (Official text was mistranslated in context)
-	line "HONOR ROLL?"
+	text "Sortir du ROLE" ; text "Exit GYM LEADER" (Official text was mistranslated in context)
+	line "d'HONNEUR?"
 	done
 
 Text_LinkingWithCenter: ; unreferenced
-	text "Linking with the"
-	line "CENTER…"
+	text "Connexion au"
+	line "CENTRE…"
 	done
 
 Text_WhatLevelDoYouWantToChallenge:
@@ -6055,17 +6055,18 @@ Text_WhatLevelDoYouWantToChallenge:
 	done
 
 Text_CheckBattleRoomListByMaxLevel:
-	text "Check BATTLE ROOM"
-	line "list by max level?"
+	text "Voir la liste des"
+	line "SALLE de COMBAT?"
 	done
 
 Text_EnterWhichBattleRoom: ; unreferenced
-	text "Enter which"
-	line "BATTLE ROOM?"
+	text "Entrez quelle"
+	line "SALLE de COMBAT?"
 	done
 
 Text_WhichBattleRoom: ; unreferenced
-	text "Which BATTLE ROOM?"
+	text "Quelle SALLE de"
+	line "COMBAT?"
 	done
 
 Text_ThisBattleRoomPleaseWait:
@@ -6078,11 +6079,12 @@ Text_ThisBattleRoomPleaseWait:
 ;	done
 
 	; less awkward
-	text_ram wStringBuffer3
-	text "'s ROOM "
+	text "La SALLE "
 	text_ram wStringBuffer4
+	text " de "
+	text_ram wStringBuffer3
 	text "?"
-	line "Please wait…"
+	line "Un moment…"
 	done
 
 Function11ac3e:
